@@ -112,8 +112,7 @@ class DendrogramTree(object):
 
     def get_clusters(self, threshold):
         """
-        
-
+        Entry method for finding clusters
         Parameters
         ----------
         threshold : int
@@ -141,8 +140,8 @@ class TreeNode(object):
         
     def get_clusters(self, threshold, clusters):
         """
-        
-
+        -Traverse through each node, check if node is greater than the threshold
+        -if so, obtain all leaves in the subtree under that node
         Parameters
         ----------
         threshold : int
